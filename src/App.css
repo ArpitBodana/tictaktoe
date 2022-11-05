@@ -1,0 +1,20 @@
+#root {
+  max-width: 100%;
+  text-align: center;
+}
+
+main {
+  flex: 1;
+}
+
+.block {
+  min-width: 100px;
+  min-height: 100px;
+  font-size: 35px;
+  color: crimson;
+  font-weight: bolder;
+  text-align: center;
+  display: inline-block;
+  text-align: center;
+  padding: 24px;
+}
