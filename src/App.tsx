@@ -17,9 +17,9 @@ function App() {
     if (strings[index] === "") {
       //@ts-ignore
       strings[index] = isXChance ? "X" : "O";
+      setGameState(strings);
+      setIsXChance(!isXChance);
     }
-    setGameState(strings);
-    setIsXChance(!isXChance);
   };
   const clearState = () => {
     setGameState(initialState);

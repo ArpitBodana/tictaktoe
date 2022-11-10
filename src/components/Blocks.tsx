@@ -8,7 +8,9 @@ type BlockType = {
 function Blocks(props: BlockType) {
   return (
     <span
-      className={`block  ${props.className} border-4 border-warning ${
+      className={`block  ${
+        props.className
+      } border-4 border-warning user-select-none ${
         props.state ? "text-danger" : "text-black"
       }`}
       onClick={props.handleClick}
